@@ -1,9 +1,94 @@
-h1 {
-  color: blue;
-  background-color: black;
-  border: 1px solid blue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0681e7;
 }
 
+li {
+    float: left;
+    border-right:1px solid #000000;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #000000;
+}
+
+h1 {
+  color: #050096;
+  background-color: #9E9E9E;
+  border: 1px solid black;
+  font-family: "Courier New", Times, serif;
+  text-align: center;
+    border-radius: 5px;
+}
+
+h2 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+h3 {
+  color: black;
+  background-color: violet;
+  border: 1.5px solid black;
+}
+    
 p {
   color: black;
+}
+
+.header {
+    background-color: blue;
+    padding: 1px;
+    text-align: center;
+    color: black;
+  border: 8px solid black;
+  border-radius: 5px;
+  font-family: "Bookman Old Style", Times, serif;
+  height:110px;
+}
+ h4{
+     font-size: 37px;
+     font-weight: bolder;
+     position: relative;
+    right: -60px;
+    top:-10px;
+ }
+
+divi.relative {
+    position: relative;
+    right: 165px;
+    bottom:150px;
+}
+
+figure {
+    position: relative;
+    right: -25px;
+    bottom:10px;
+}
+
+p1 {
+     position: center;
+    width: 500px;
+    border: 3px solid white;
+    font-size: 20px
 }
