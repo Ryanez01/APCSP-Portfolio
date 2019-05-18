@@ -4,6 +4,31 @@
     <meta charset="utf-8">
     <title>My test page</title>
     <link rel="Stylesheet" href="Styles/Style.css">
+    <style>
+.accordion {
+  background-color: #73648A;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #583853; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #453750;
+  overflow: hidden;
+}
+</style>
   </head>
   <body>
       <ul>
@@ -11,26 +36,92 @@
           <li><a href="aboutme.html">About Me</a></li>
           <li><a href="projects.html">My Project</a></li>
       </ul>
-     <h1> Ap Portfolio </h1>
-     <h3>My Scratch Project</h3>
-      <video src="images/The Struggle of Sebastian.webm" width="600" controls>
-        <p>This is my page</p>
+     <h1> AP Portfolio </h1>
+     
+<button class="accordion">My Scratch Project</button>
+     <div class="panel">
+      <center><video src="images/The Struggle of Sebastian.webm" width="600" controls></center>
+
       </video>
-      <a href="https://scratch.mit.edu/projects/244487241/#editor" title="The Struggle of Sebastian game" target="_blank"> Here is a link to my scratch project</a>
-      <h4>My Android Application project</h4>
-      <video src="images/app.mp4" width="300">
-        <p>This is minute long video displaying the key uses of the application i developed using app inventor</p>
-      </video>
+      <center><a href="https://scratch.mit.edu/projects/244487241/#editor" title="The Struggle of Sebastian game"  
+      target="_blank"> Here is a link to my scratch project</a></center>
+     <p>Above is a video of my first scratch project titled "The Story of Sebastian" which was developed by myself and my partner at the time, Connor Bartholomew. This project was coded using Scratch's block based system which allows for abstractions and easy introduction to programming. Overall this creation took 1 week to develop in pair-programming. </p>
+     </div>
+      
+<button class="accordion">My Android Application project</button>
+      
+    <div class="panel"><center>
+      <video src="images/app.mp4" width="300"></video>
+      <p>This code utilizes a block-based programming language from MIT's "AppInventor." This video demonstrates the basic purpose of the program which is to mimic the structure of an engineering notebook and allow users to upload photos and notes while also being able to protect their intelletucal property with a stamping feature that stamps both name and date on the pages. In this video I demonstrate the navigation of the opening screen, followed by editing a line of text to type a title (or notes) which I deleted. I then proceeded to implement photos from my gallery and paste them in the engineering app followed by saving my signature then stamping my notes and pictures with the final element being demonstrated is the ability to wipe out the entire page and begin a clean slate.</p>
       <a href="http://ai2.appinventor.mit.edu/?locale=en#4776654234845184" title="Hertz" target="_blank">Hertz </a>
-      <h5>My Interactive Fiction Project </h5>
-      <video src="images/interactive.webm." width="600">
-        <p> This is a small clip of my interactive ficiton project coded using Python 2.7 and it showcases one of the many roads the user can choose to travel down based on their inputs at multiple points</p>
-      </video>
-      <a href="https://repl.it/@Ryanez201/Interactive-Fiction-10-1" title="The tragedy of Yaymond" target="_blank"> Interactice Fiction</a>
-      <h6>My Python project I Love</h6>
-      <video src="images/projectlove.mp4" width="600">
-        <p>This project was coded using Python 2.7 an was a musical artist quiz that allowed users to test their knowledge regarding a broad range of artist</p>
-      </video>
+      </center></div>
+      
+<button class="accordion">My Interactive Fiction Project</button>
+          
+      <div class="panel"><center>
+      <video src="images/interactive.webm." width="600"></video>
+        <p> This is a small clip of my interactive ficiton project coded with my partner Jayson Pacio using Python 2.7 and it showcases one of the many roads the user can choose to travel down based on their inputs at multiple points. Of course this is meant to have a multitude of ending so feel free to try playing it yourself by clicking the link.
+            <a href="https://repl.it/@Ryanez201/Interactive-Fiction-10-1" title="The tragedy of Yaymond" target="_blank"> Interactice Fiction</a>
+
+      </center></div>
+      
+      
+      
+<button class="accordion">My Python project I Love</button>
+          
+      <div class="panel"><center> 
+      <video src="images/projectlove.mp4" width="600"></video>
+        <p>This project was coded using Python 2.7 an was a musical artist quiz that allowed users to test their knowledge regarding a broad range of artist. This was coded with my partner Zurrina Foster. Feel free to click the link below and try it yourself.</p>
+      
       <a href="https://repl.it/@Ryanez201/Song-Title-Quiz-FInal-4" title="Musical Artist Quiz" target="_blank">Musical Artist Quiz</a>
+      </center> </div>
+      
+      
+<button class="accordion">Computational Innovation</button>
+      
+      <div class="panel"><center>
+      <img src= "images/info.png" width="600">
+      <p>Above is a computational artifact regarding a recent computational innovation. Specifically a new software that is capable fully generating a human face. This software developed by Nvidia relies solely on all the images on the internet to feed it source material.</p>
+       </center></div>
+     
+      
+<button class="accordion">Simulation Manipulation</button>
+     
+      <div class="panel"> <center>
+      <video src="images/Simulation.webm" width="600">
+        <p>This project was an introduction to computer simulations using programming. Initially this program was a model for sand particles and their interaction with one another, however, my partner Yasmine and I were able to manipulate the pre-exsisiting code in order to demonstrate the interaction of water and sand particles. Ultimately programming can be used to model complex real-world situations to help better plan for certain scenarios. One main scenario this simulatiion would be useful for is understanding soil's interaction with water.</p>
+      </center></div>
+      
+<button class="accordion">Create Performance Task</button>
+     
+      <div class="panel"> <center>
+      <video src="images/create.mp4" height="400" > </video>
+      <p>This code utilizes a block-based programming language from MIT's "AppInventor." This video demonstrates the basic purpose of the program which is to mimic the structure of an engineering notebook and allow users to upload photos and notes while also being able to protect their intelletucal property with a stamping feature that stamps both name and date on the pages. In this video I demonstrate the navigation of the opening screen, followed by editing a line of text to type a title (or notes) which I deleted. I then proceeded to implement photos from my gallery and paste them in the engineering app followed by saving my signature then stamping my notes and pictures with the final element being demonstrated is the ability to wipe out the entire page and begin a clean slate.</p>
+      
+      </center></div>
+      
+<button class="accordion">Explore Performance Task</button>
+     
+      <div class="panel"> <center>
+      <img src= "images/artifact.png" width="600">
+      <p>The computing innovation I chose to do my artifact on was A.I. but more specifically an A.I. that was recently researched and developed by the Swiss Federal Institute of Technology Lausanne (EPFL),that’s main function is to detect dead varro mites in beehives and record that data so that it can be used to let beekeepers know when to treat the respective beehives(Marc). My computational artifact explains the broad steps in the process of how the A.I. is used in detexting the Varro mites and relaying that information to the beekeeper.</p>  
+      <p>The main form of data the beesaving A.I. uses is in the form of number of dead varro mites it detects within a hive. The beekeeper uploads the image of the hive (input) where the A.I. can then run through the picture over and over and attempt to pick up on all dead mites so it then can relay that information (output) to the beekeeper so the beekeeper knows exactly when to treat the hive. One main concern for this A.I. is storage which as it runs through larger and larger hives, it inevitably will run into too much data to handle which could lead to less and less accurate accounts of how many dead mites it detects which leads to the hive being mistreated.</p>   
+    </center></div>
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
   </body>
 </html>

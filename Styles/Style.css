@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0681e7;
+    background-color: #FE5F55;
 }
 
 li {
@@ -24,26 +24,27 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #C3B299;
 }
 
 .active {
-    background-color: #000000;
+    background-color: #000FF0;
 }
 
 h1 {
-  color: #050096;
-  background-color: #9E9E9E;
-  border: 1px solid black;
-  font-family: "Courier New", Times, serif;
+  color: #EEF5DB;
+  background-color: #247BA0;
+  /*border: 1px solid black;*/
+  font-family: "Verdana", Times, serif;
   text-align: center;
-    border-radius: 5px;
+  
 }
 
 h2 {
-  color: blue;
-  background-color: yellow;
+  color:  white;
+  background-color: #00ccff;
   border: 1px solid black;
+  text-shadow: #000 1px 0 10px;
 }
 
 h3 {
@@ -53,14 +54,16 @@ h3 {
 }
     
 p {
-  color: black;
+  text-align: center;
+  color: white;
+  font-family: "Bookman Old Style", Times, serif;
 }
 
 .header {
-    background-color: blue;
+    background-color: #134074;
     padding: 1px;
     text-align: center;
-    color: black;
+    color: white;
   border: 8px solid black;
   border-radius: 5px;
   font-family: "Bookman Old Style", Times, serif;
@@ -74,7 +77,7 @@ p {
     top:-10px;
  }
 
-divi.relative {
+.relative {
     position: relative;
     right: 165px;
     bottom:150px;
@@ -87,8 +90,16 @@ figure {
 }
 
 p1 {
-     position: center;
+     position:center;
     width: 500px;
     border: 3px solid white;
     font-size: 20px
+}
+a {
+    color: white
+}
+er{
+    font-family: "Verdana", Times, serif;
+  text-align: center;
+  color:white;
 }
